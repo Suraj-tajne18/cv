@@ -1,0 +1,158 @@
+.section{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.section h2.section-head{
+  color: #000;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section h2.section-head::after{
+  background: red;
+  content: "";
+  width: 100px;
+  height: 3px;
+  margin: 20px; auto;
+}
+
+#header{
+  color:#fff;
+  background: red;
+}
+#logo{
+ font-size: 1.5rem;
+ margin-top: px;
+
+}
+#log{
+  height: 100px;
+  width: 50px;
+}
+
+#menu{
+  list-style: none;
+  margin: 0;
+  padding-bottom: 5px;
+}
+#menu li{
+  display: inline;
+}
+#menu li a{
+  color: #fff;
+  background: ;
+  padding: 15px 10px;
+
+
+}
+
+#banner{
+
+  background: url('wd.jpg') ;
+  background-size: cover;
+}
+.banner-title{
+  padding-top: 3rem;
+}
+.banner-title h1{
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  padding: 10px;
+  margin: 0
+}
+.banner-title p.lead{
+  font-size: 0.8 rem;
+  color:#fff;
+  background: rgba(231, 76, 60, 0.7);
+  padding: 10px;
+}
+.card{
+text-align: right;
+}
+.section-head{
+  text-align: center;
+
+}
+.jumbotran{
+  background: #de66a3;
+}
+#t1{
+  text-align: center;
+  font-size: 1rem;
+}
+#boocknow{
+  padding-top: 25px;
+  height: 100px;
+  font-size: 1rem;
+  text-align: center;
+}
+#btn{
+  padding-top: 10px;
+margin-left: 40%;
+
+
+}
+
+#testimonials{
+  /* background: url('testi.jpg') ;
+  background-size: cover; */
+  background: #32a2e3;
+  padding-top: 25px;
+  padding: 50px 20px;
+  position: relative;
+}
+.new-post{
+  padding-left: 30px;
+}
+#footer-sidebar{
+background: black;
+
+}
+/* #input{
+  margin-top: 15px;
+  margin-bottom: 15px;
+} */
+input[type=text],select{
+  width: 50%;
+  /* padding: 12px 20px; */
+  margin: 8px 10px;
+  border: 1px solid #ccc;
+  box-sizing: 4px;
+}
+input[type=email],select{
+  width: 50%;
+  margin: 8px 10px;
+  border: 1px solid #ccc;
+  box-sizing: 4px;
+  box-sizing: border-box;
+
+
+}
+
+input[type=textmessage],select{
+  width: 50%;
+  margin: 8px 10px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  box-sizing: 4px;
+
+}
+#btn1{
+margin-left: 120px;
+
+
+}
+#socialicons{
+width: 20px;
+height: 20px;
+list-style: none;
+color: #fff;
+margin: 0;
+padding: 0;
+
+
+}
+#foot{
+  background: ;
+}
